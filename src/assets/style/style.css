@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  font-family: 'ProximaNova';
+}
+
+.container-small {
+  max-width: 556px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-size: 66px;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.h1 span {
+  font-size: 158px;
+}
+
+.h2 {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 61px;
+  color: var(--basic-text-color);
+  font-weight: 900;
+  width: 60%;
+}
+
+.text {
+  font-weight: 300;
+  color: var(--basic-text-color);
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+}
+
+.list-leave-active {
+  position: absolute;
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content {
+  padding: 0 80px;
+}
+
+.btn {
+  display: inline-block;
+  font-family: 'ProximaNova';
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  padding: 11px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: var(--accent-color);
+  color: var(--default-text-color);
+  text-decoration: none;
+}
+
+.btn[disabled] {
+  opacity: 0.6;
+}
+
+.btn--black {
+  background: var(--basic-bg-color);
+  color: var(--basic-white-color);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: var(--popup-accent-bg-color);
+  border-bottom: 1px solid var(--basic-white-color);
+  padding: 15px 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__action {
+  font-size: 14px;
+  line-height: 15px;
+  color: var(--basic-white-color);
+}
+
+.header__action:not(:last-child) {
+  margin-right: 20px;
+}
+
+.success-color {
+  color: var(--accent-success-game-color) !important;
+}
+
+.popup-calculator .popup__description {
+  margin: 0 auto;
+  text-align: center;
+}
+
+b {
+  font-weight: 900;
+}
+
+.popup-calculator .popup__main {
+  padding-left: 0;
+  padding-right: 0;
+}

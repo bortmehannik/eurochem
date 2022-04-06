@@ -1,0 +1,42 @@
+[{
+    "scattered": {
+        "vest": {
+            "path": "vest.svg"
+        },
+        "boots": {
+            "path": "boots.svg"
+        },
+        "gloves": {
+            "path": "gloves.svg"
+        },
+        "cap": {
+            "path": "cap.svg"
+        },
+        "costume": {
+            "path": "costume.svg"
+        },
+        "glasses": {
+            "path": "glasses.svg"
+        }
+    },
+    "collected": {
+        "vest-collected": {
+            "path": "vest-collected.svg"
+        },
+        "boots-collected": {
+            "path": "boots-collected.svg"
+        },
+        "gloves-collected": {
+            "path": "gloves-collected.svg"
+        },
+        "cap-collected": {
+            "path": "cap-collected.svg"
+        },
+        "costume-collected": {
+            "path": "costume-collected.svg"
+        },
+        "glasses-collected": {
+            "path": "glasses-collected.svg"
+        }
+    }
+}]
